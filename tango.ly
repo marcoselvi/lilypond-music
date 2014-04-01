@@ -7,8 +7,9 @@ comments
 \header
 {
 	title = "Tango"
-	subtitle = "Scent Of A Woman"
+	subtitle = "From \"Scent Of A Woman\""
 	composer = "John Williams"
+	arranger = \markup {\italic "for Itzhak Perlman"}
 	tagline = ""
 }
 
@@ -28,7 +29,7 @@ comments
 	r8 c16 ees g'4~-> g16 f ees d ees( d) c b |
 	c( g) g( ees) ees( c) fis, g ees'( c) g ees d( c) g-. a-. |
 	bes2~ bes8 bes( bes' a) |
-	a,2~ a8 gis16-. a-. ais-.( b-.) bis-. cis-. |
+	a,2~ a8 gis16-. a-. ais-. b-. bis-. cis-. |
 	d8 r <d a' f' d'>4\laissezVibrer^"pizz." r2\fermata \bar "||"
 
 	\once \override Score.RehearsalMark #'self-alignment-X = #LEFT
@@ -67,7 +68,7 @@ comments
 	r8 \tuplet 3/2 {d16( e d} cis2.) |
 	r8 g( <g' bes>) \tuplet 3/2 {g16( a g} <fis d>2) |
 	r4 \acciaccatura <g d'>8( bes'4) \acciaccatura <g, d'>8( \tuplet 3/2 {bes'4) c d} |
-	\acciaccatura <g, d' g'>8( d'2) a |
+	\acciaccatura <g,, d' g>8( d''2) a |
 	%bar 40
 	r4 \acciaccatura <bes, ees,>8( g'4) \tuplet 3/2 {\tuplet 7/4 {g16( fis ees d ees fis g} a4 bes)} |
 	\acciaccatura <f, d'>8( bes'2) f |
@@ -128,7 +129,7 @@ comments
 	R1 |
 	r8 \tuplet 3/2 {d16( f ees} d2.) |
 	r8 \tuplet 3/2 {g,16( bes a} g2.) |
-	r4 r8 \tuplet 3/2 {c16( f ees} d8-.) a'-. d-. a-. |
+	r4 r8 \tuplet 3/2 {d'16( f ees} d8-.) a'-. d-. a-. |
 	%bar 100
 	d-. \tuplet 3/2 {c16-"dim. rit."( f ees} d4~ d8) a'-. d-. a-. |
 	d-._"a piacere" a,-. d-. a'-. d-. a\flageolet( \glissando d\flageolet) a\flageolet( \glissando |
